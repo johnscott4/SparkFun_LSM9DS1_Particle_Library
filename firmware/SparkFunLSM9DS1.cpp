@@ -77,7 +77,7 @@ void LSM9DS1::init(interface_mode interface, uint8_t xgAddr, uint8_t mAddr)
 	settings.accel.enableY = true;
 	settings.accel.enableZ = true;
 	// accel scale can be 2, 4, 8, or 16
-	settings.accel.scale = 2;
+	settings.accel.scale = 8;
 	// accel sample rate can be 1-6
 	// 1 = 10 Hz    4 = 238 Hz
 	// 2 = 50 Hz    5 = 476 Hz
